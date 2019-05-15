@@ -21,4 +21,4 @@ sudo add-apt-repository -y ppa:chris-lea/redis-server
 sudo apt-get install -y redis-server
 
 #ip binding conf
-sudo mv /home/config/redis.config /etc/redis.conf
+sudo mv /home/config/redis.conf /etc/redis.conf
