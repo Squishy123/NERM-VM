@@ -11,7 +11,7 @@ sudo apt-get update -y
 sudo apt-get install -y nodejs mongodb-org redis-server
 
 #ip binding conf
-#sudo cp /home/config/mongod.conf /etc/mongod.conf
+sudo cp /home/config/mongod.conf /etc/mongod.conf
 
 #ip binding conf
 sudo cp /home/config/redis.conf /etc/redis.conf
