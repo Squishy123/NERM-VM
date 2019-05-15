@@ -1,6 +1,12 @@
 # NERM-VM
 
 ## Easily setup a NERM-Stack development environment
+### N - NodeJS
+### E - ExpressJS
+### R - Redis
+### M - MongoDB
+
+## This repo takes care of the NRM installation
 
 # Setup
 ### 1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
