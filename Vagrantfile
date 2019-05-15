@@ -14,13 +14,10 @@ config.vm.synced_folder "C:/Users/Chris/Documents/Projects/NERM-Projects", "/hom
 config.vm.synced_folder "./config", "/home/config"
 
 #PROVIDER CONFIG
-# config.vm.provider "virtualbox" do |vb|
-#   # Display the VirtualBox GUI when booting the machine
-#   vb.gui = true
-#
-#   # Customize the amount of memory on the VM:
-#   vb.memory = "1024"
-# end
+config.vm.provider "virtualbox" do |vb|
+  vb.memory = "2048"
+  v.name = "NERM-VM"
+end
 
 #PROVISION
 config.vm.provision :shell, :path => ".provision/bootstrap.sh"
