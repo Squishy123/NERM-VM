@@ -16,4 +16,4 @@ sudo service mongod restart
 
 #ip binding conf
 sudo cp /home/config/redis.conf /etc/redis/redis.conf
-sudo service mongod restart
+sudo service redis-server restart
