@@ -14,11 +14,11 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD7
 sudo apt-get install -y mongodb-org
 
 #ip binding conf
-sudo mv /home/config/mongod.conf /etc/mongod.conf
+sudo cp /home/config/mongod.conf /etc/mongod.conf
 
 #setup redis
 sudo add-apt-repository -y ppa:chris-lea/redis-server
 sudo apt-get install -y redis-server
 
 #ip binding conf
-sudo mv /home/config/redis.conf /etc/redis.conf
+sudo cp /home/config/redis.conf /etc/redis.conf
