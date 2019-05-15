@@ -5,6 +5,7 @@
   config.vm.box = "ubuntu/trusty64"
 
   #NETWORK CONFIG
+  config.vm.network "private_network", ip: "192.168.33.10"
   config.vm.network "forwarded_port", guest: 6379, host: 6379
   config.vm.network "forwarded_port", guest: 80, host: 80 
   config.vm.network "private_network", ip: "192.168.33.10"
