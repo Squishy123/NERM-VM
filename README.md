@@ -18,12 +18,21 @@
 `vagrant ssh`
 
 # General Use
+
+## Commands
 ### Bootup Box:
 `vagrant up`
 ### Turn off Box:
 `vagrant halt`
 ### Delete Box:
 `vagrant destroy`
+
+## Addresses
+### MongoDB: 
+`mongodb://192.168.33.10:27017`
+### 
+`Redis: 192.168.33.10:6379`
+
 
 # Config
 ### All settings are found in the Vagrantfile. After making changes, reload the box:
